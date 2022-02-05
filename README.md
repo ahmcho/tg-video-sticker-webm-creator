@@ -16,7 +16,7 @@ The scripts expects you to provide two arguments: video format and starting poin
 
 `./encode.sh "avi" "00:00:00"`
 
-If starting point not provided, the default value of `00:00:00` will be used.
+If starting point is not provided, the default value of `00:00:00` will be used.
 After succesfull conversion, you can send newly created `.webm` file to [@Stickers] bot.
 
  [Telegram Video Stickers]: <https://telegram.org/blog/video-stickers-better-reactions#video-stickers>
