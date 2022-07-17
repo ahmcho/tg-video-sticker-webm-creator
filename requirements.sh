@@ -4,6 +4,7 @@ echo "${Green}Before starting the conversion the correct version of ffmpeg shoul
 read yn
 case $yn in 
     [Yy]* ) 
+        sudo apt install python3
         sudo apt-get install ffmpeg
         sudo add-apt-repository ppa:savoury1/ffmpeg4
         sudo add-apt-repository ppa:savoury1/graphics
